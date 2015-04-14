@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+	<title>Test3</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	
+	<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+	<link rel="import" href="bower_components/core-scaffold/core-scaffold.html">
+	<link rel="import" href="bower_components/core-header-panel/core-header-panel.html">
+	<link rel="import" href="bower_components/core-menu/core-menu.html">
+	<link rel="import" href="bower_components/core-item/core-item.html">
+	<link rel="import" href="bower_components/core-icon-button/core-icon-button.html">
+	<link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+	<link rel="import" href="bower_components/core-field/core-field.html">
+	<link rel="import" href="bower_components/core-icon/core-icon.html">
+	<link rel="import" href="bower_components/core-input/core-input.html">
+	<link rel="import" href="bower_components/core-icons/core-icons.html">
+	<link rel="import" href="bower_components/paper-shadow/paper-shadow.html">
+	<link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
+	<link rel="import" href="bower_components/paper-dropdown/paper-dropdown.html">
+	<link rel="import" href="bower_components/paper-menu-button/paper-menu-button.html">
+	<link rel="import" href="bower_components/speech-mic/speech-mic.html">
+	<link rel="import" href="bower_components/core-menu/core-submenu.html">
+	<link rel="import" href="bower_components/google-map/google-map.html">
+	<link rel="import" href="bower_components/font-roboto/roboto.html">
+	<link href="main.css" rel="stylesheet">
+
+</head>
+
+<body unresolved>
+
+
+<core-drawer-panel>
+  <core-header-panel drawer id="core_header_panel">
+    <core-toolbar id="drawer_toolbar" class="medium-tall">
+    </core-toolbar>
+    <core-menu valueattr="label" id="core_menu" theme="core-light-theme">
+      <core-item id="core_item" icon="settings" label="Item1" horizontal center layout></core-item>
+      <core-item id="core_item1" icon="settings" label="Item2" horizontal center layout></core-item>
+    </core-menu>
+  </core-header-panel>
+  <core-header-panel main>
+    <core-toolbar id="main_toolbar" class="medium-tall">
+      <core-icon icon="menu" core-drawer-toggle></core-icon>
+      <div flex>Pulse Cockpit</div>
+	<paper-menu-button>
+		<paper-icon-button id="morebutton" icon="more-vert">  
+		</paper-icon-button>
+		<paper-dropdown class="dropdown" halign="right"></paper-dropdown>	
+	</paper-menu-button>
+		<paper-tabs class="bottom fit" selected="0">
+			<paper-tab>Worldmap</paper-tab>
+			<paper-tab>Favoriten</paper-tab>
+			<paper-tab>Einstellungen</paper-tab>
+		</paper-tabs>
+    </core-toolbar>
+    <div><google-map latitude="37.256165157035305" longitude="-120.93695234863281" id="google_map"></google-map></div>
+  </core-header-panel>
+</core-drawer-panel>
+</body>
+</html>
