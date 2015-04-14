@@ -5,3 +5,11 @@ Dieses wird entwickelt auf Basis von 'Web Components' und verwendet Bestandteile
 1. https://github.com/polymer/polymer
 2. https://github.com/Polymer/paper-elements
 3. https://github.com/Polymer/core-elements
+
+Das Grundgerüst soll unahängig vom verwendeten Betriebssystem eine einheitliche User Experience bieten. Ein 'responsive' - Design wird abhängig von der Bildschirmgröße und Ausrichtung des Betrachters identische Funktionalität in einem auf die Plattform angepassten Userinterface unterbringen. 
+Dazu werden zwei verschieden Modi unterstützt:
+
+1.  Das Desktop-Layout
+2.  Das Mobile-Layout
+
+Abhängig von der Bildschirmdiagonale wird zwischen diesen Modi dynamisch gewechselt. 
