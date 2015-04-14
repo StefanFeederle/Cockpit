@@ -1,4 +1,4 @@
-# cockpit
+# Cockpit
 ... ist ein Grundgerüst für eine Webapplication. 
 Dieses wird entwickelt auf Basis von 'Web Components' und verwendet Bestandteile von: 
 
