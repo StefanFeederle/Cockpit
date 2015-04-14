@@ -1,0 +1,24 @@
+{
+  "name": "Cockpit",
+  "version": "0.1",
+  "homepage": "https://github.com/StefanFeederle/Cockpit",
+  "authors": [
+    "<StefanFeederle <stefan.feederle@gmail.com>>"
+  ],
+  "description": "Responsive Webapp-Scaffold",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-elements": "Polymer/core-elements#~0.5.5",
+    "google-map": "googlewebcomponents/google-map#~0.4.2",
+    "paper-elements": "polymer/paper-elements#~0.5.5",
+    "platform": "Polymer/platform#^0.4.0",
+    "speech-mic": "polymerlabs/speech-mic#~0.5.0"
+  }
+}
