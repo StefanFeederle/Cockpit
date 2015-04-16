@@ -16,12 +16,14 @@
 	<link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
 	<link rel="import" href="bower_components/core-field/core-field.html">
 	<link rel="import" href="bower_components/core-icon/core-icon.html">
+	<link rel="import" href="bower_components/core-icons/social-icons.html">
 	<link rel="import" href="bower_components/core-input/core-input.html">
 	<link rel="import" href="bower_components/core-icons/core-icons.html">
 	<link rel="import" href="bower_components/paper-shadow/paper-shadow.html">
 	<link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
 	<link rel="import" href="bower_components/paper-dropdown/paper-dropdown.html">
 	<link rel="import" href="bower_components/paper-menu-button/paper-menu-button.html">
+	<link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
 	<link rel="import" href="bower_components/speech-mic/speech-mic.html">
 	<link rel="import" href="bower_components/core-menu/core-submenu.html">
 	<link rel="import" href="bower_components/google-map/google-map.html">
@@ -44,11 +46,13 @@
   </core-header-panel>
   <core-header-panel main>
     <core-toolbar id="main_toolbar" class="medium-tall">
-      <core-icon icon="menu" core-drawer-toggle></core-icon>
+	  <paper-menu-button>
+		<core-icon-button icon="menu" core-drawer-toggle></core-icon-button>
+	  </paper-menu-button>
       <div flex>Cockpit</div>
 	<paper-menu-button>
-		<paper-icon-button id="morebutton" icon="more-vert">  
-		</paper-icon-button>
+		<paper-icon-button id="buttonsettings" icon="more-vert">  </paper-icon-button>
+		<paper-icon-button id="buttonlogin" icon="social:person">  </paper-icon-button>
 		<paper-dropdown class="dropdown" halign="right"></paper-dropdown>	
 	</paper-menu-button>
 		<paper-tabs class="bottom fit" selected="0">
