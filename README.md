@@ -9,7 +9,5 @@ Diese wird entwickelt auf Basis von 'Web Components' und verwendet Bestandteile 
 Das Grundgerüst soll unahängig vom verwendeten Betriebssystem eine einheitliche User Experience bieten. Ein 'responsive' - Design wird abhängig von der Bildschirmgröße und Ausrichtung des Betrachters identische Funktionalität in einem auf die Plattform angepassten Userinterface unterbringen. 
 Dazu werden zwei verschieden Modi unterstützt:
 
-1.  Das Desktop-Layout
-2.  Das Mobile-Layout
 
 Abhängig von der Bildschirmdiagonale wird zwischen diesen Modi dynamisch gewechselt. 
